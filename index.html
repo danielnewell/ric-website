@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<title>Re-Imagine Communities</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="111b9e">
+
+<link rel="icon" href="favicon.png?">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/primary-reimagine.css">
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.countup.min.js"></script>
+
+<script>
+$(document).ready(function (){$('.counter').countUp()});
+</script>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#programs" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PROGRAMS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#programs" class="w3-bar-item w3-button" onclick="toggleFunction()">PROGRAMS</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap">
+    <span class="w3-center w3-padding-large w3-xlarge w3-wide w3-animate-opacity goldBg">Re-Imagine Communities</span>
+  </div>
+</div>
+
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT US</h3>
+  <p class="w3-center"><em>We want to help you</em></p>
+  <p style="text-align: center;">Re-Imagine Communities is a not-for-profit 501(c)(3) organization located in Apopka, Florida. We are at the forefront of providing youth services to the disadvantaged and at-risk youth population of Central Florida. Our programs and activities are designed to be a catalyst to help members of the community reach their goals and fulfill their potential. Keep reading to learn more about the positive impact we have and join us in bringing about positive change.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <h3><b><i class="fa fa-bullseye w3-margin-right"></i>Our Mission:</b></h3><br>
+      <img src="images/high_fives.jpeg" class="w3-round w3-image" alt="4 people reaching up to give a high-five to each other" width="278" height="278">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <p>The mission of Re-imagine Communities is to advance equity by empowering the underserved, and at-risk youth of Central Florida. Through mentoring and coaching, education, life-skills training, job readiness training and financial literacy, we are committed to reshaping and redefining our communities one idea at a time.</br>
+      Every day we work on planning events and finding resources for the community. We rely primarily on donations from the community to stay running. With contributions from people like you, we are able to help the community and expand our operations to reach more people in need throughout Central Florida.
+      </p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">Statistics</p>
+  <p><i class="fa fa-smile-o"></i> Satisfaction from People We Help</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small blueBg w3-center" style="width:100%">100%</div>
+  </div>
+  <p><i class="fa fa-dollar"></i> % of Donations Used to Help the Central Florida Community <i class="fa fa-dollar"></i></p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small blueBg w3-center" style="width:100%">100%</div>
+  </div>
+</div>
+
+<div class="w3-row w3-center blueBg w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge counter">300</span>+<br>
+    Students Fed Monthly
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge counter">100</span>+<br>
+    Boxes of Clothing Items Given Away
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge counter">200</span>+<br>
+    Community Service Hours Signed for Students
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge counter">1000</span>+<br>
+    Total Families Served To Date
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min" id="programs">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide w3-padding-large purpleBg">PROGRAMS</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64">
+  <h3 class="w3-center">What We Do</h3>
+  <p class="w3-center"><em>Here is some work that we do.</em></p><br>
+
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <h3><b><i class="fa fa-lightbulb-o w3-margin-right"></i>Mentorship Program</b></h3><br>
+      <img src="images/mentor.webp" class="w3-round w3-image" alt="two women sitting down with one at a laptop and another staring at the screen taking notes" width="200" height="200" style = "vertical-align: middle; float: left;">
+      <p>In an ideal world, every child and teenager would be surrounded by strong and positive role models. However, in reality, that is often not the case. It has been proven that more too often, parents who struggle with poverty, substance addition, mental illness, domestic abuse, or lack of a support system for themselves, may not be able to be positive role models. Even in families that aren’t facing adversity, some youth may benefit from an adult outside of their family to look up to. This is where the Re-imagine Mentorship Program hopes to steps in and bridge the gap. 
+      <p>The purpose of our mentorship program is to expose students to positive role models. The program will work to provide avenues for students to access the professional individual in the community who will serve as mentors by giving them personal and career guidance. This program will help students:</p>
+      <table>
+        <tr>
+          <td>
+            <ul>
+              <li>Increased self-esteem and confidence when dealing with people and situations that take them outside of their comfort zones</li>
+              <li>Gain access to positive guidance</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>Build confidence to challenge oneself to achieve new goals and explore alternatives</li>
+              <li>Gain exposure to a professional network of people</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      </p>
+      <p>This program is not only beneficial to the students but the mentors as well. Mentors will gain satisfaction of helping a student reach her academic and professional goals, receive recognition for service to the community, reinforce their own study skills and knowledge of subject(s), increase their confidence and motivation, and benefit from a sense of fulfillment or personal growth.</p>
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h3><b><i class="fa fa-graduation-cap w3-margin-right"></i>Re-Imagine Education</b></h3><br>
+      <p><img src="images/teacher.jpeg" class="w3-round w3-image" alt="teacher with mask on hands paper to one of several masked students at their desks" width="278" height="278" style = "vertical-align: middle; float: left;">Re-Imagine’s Education Program is dedicated to advocating for minority, underserved, low wealth and at-risk students. The program is committed to finding creative ways to help students succeed. The program provides educators with the resources, skills and knowledge they need to create effective and creative learning strategies. Through collaborations, networking and pooling of resources, the program strives to create “out of the box” learning initiatives that will keep students, teachers and the community at large engaged. The overall goal of the program is to help bridge the socioeconomic opportunity gap that has been widened over the last decade.
+      </p>
+    </div> 
+    <div class="w3-col m6 w3-padding-large">
+      <h3><b><i class="fa fa-pencil w3-margin-right"></i>Re-Imagine Life Program</b></h3><br>
+      <p><img src="images/skill building.jpeg" class="w3-round w3-image" alt="4 people reaching up to give a high-five to each other" width="278" height="278" style = "vertical-align: middle; float: left;">Life skills are the competencies needed to succeed in life. Without them, young people are dramatically more susceptible to bullying, violence, substance abuse, dropping out of school, financial problems, incarcerations and unemployment. <br/> Re-Imagine Life Program seeks to identify students’ needs and equip them with the resources and education needed to be successful. We believe that equipping students with the necessary life skills makes a difference. Students will learn problem solving, critical thinking, decision-making, creative thinking, interpersonal relationship skills, self-awareness building, empathy and coping skills. Learning these life skills helps children create a better future.</p>
+    </div>
+    <div class="w3-col m6 w3-padding-large">
+      <h3><b><i class="fa fa-user w3-margin-right"></i>"We Ready" Job Readiness Program</b></h3><br>
+      <p><img src="images/interview.jpeg" class="w3-round w3-image" alt="4 people reaching up to give a high-five to each other" width="600" height="400" style = "vertical-align: middle; float: inline-start;">Re-Imagine’s WE READY job readiness program focuses on preparing students with the information and resources needed to succeed when entering the job market. Students can apply the basic skills learned to any job at any level. Whether it's their first job or life long career choice, these skills will help students continue to succeed along their career path. <br/> Our program explores
+        <ul>
+          <li>Career Exploration</li>
+          <li>Career Development</li>
+          <li>Professionalism</li>
+          <li>Financial Literacy</li>
+          <li>Leadership Skills</li>
+          <li>Goal Setting</li>
+          <li>Dressing for Success</li>
+        </ul>
+        We believe that if the students are “READY” they can conquer any obstacles and achieve their goals. 
+      </p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min" id="contact">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide w3-padding-large purpleBg">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64">
+  <h3 class="w3-center">CONTACT US</h3>
+  <p class="w3-center"><em>We'd love to speak with you!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="images/office.jpeg" class="w3-image w3-round" style="width:100%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> P.O. BOX 33 MOUNT PLYMOUTH FL 32768<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: <a href="tel:+14072283647">+1 407 (228) 3647</a><br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: <a href="mailto:re-imaginecommunities.org">info@re-imaginecommunities.org</a><br>
+      </div>
+      <p>Swing by for a (virtual) cup of <i class="fa fa-coffee"></i>, or leave us a note:</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/pg/reimaginecommunities/about/" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/company/79358937/admin/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+  <p>(C) Re-Imagine Communities 2020-. All Rights Reserved</p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
